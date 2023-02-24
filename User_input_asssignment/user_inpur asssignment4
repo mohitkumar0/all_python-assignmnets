@@ -1,0 +1,61 @@
+this is all questions and answers:
+
+1.#Write a python script to take your name as input from the user and then print it.
+user_input = input("enter name here")
+print(user_input)
+
+2.#Write a python script to take input from the user. Input must be a number
+user_input = int(input("enter only number here"))
+print(user_input)
+
+3.#Write a python script which takes two numbers from the user, then calculate their sum and display the result.
+user_input1 = int(input("enter first number here"))
+user_input2 = int(input("enter second number here"))
+c = user_input1 + user_input2
+print(c)
+
+4.#Write a python script which takes the radius from the user and display area of a circle.
+user_input = int(input("enter radius here"))
+c = 2*3.14*user_input
+print("area of a circle is ",c)
+
+5.#Write a python script to calculate the square of a number. Number is entered by the user.
+user_input = int(input("enter number here"))
+squr = user_input**2
+print("square of ",user_input ,"is ",squr)
+
+6.#Write a python script to calculate the area of Triangle. Number is entered by the user
+base = int(input("enter triabgle base here"))
+height = int(input("enter triabgle height here"))
+formula = (base*height)/2
+print(formula)
+
+7.#Write a python script to calculate average of three numbers, entered by the user
+user_input1 = int(input("enter three number to get average and first number is "))
+user_input2 = int(input("enter second number is"))
+user_input3 = int(input("enter three number is"))
+avg = (user_input1 + user_input2 + user_input3)/3
+print(avg)
+
+8.#Write a python script to calculate simple interest
+borrow_money = int(input("enter money you borrow"))
+rate = int(input("enter rate here"))
+year = int(input("enter how many year to return borrow money"))
+simple_interest = borrow_money +(borrow_money*rate*year)/100
+print(simple_interest)
+
+9.# Write a python script to calculate the volume of a cuboid.
+lenght = int(input("enter lenght   here"))
+height = int(input("enter t height here"))
+width = int(input("enter width height here"))
+formula = lenght*width*height
+print("the volume of a cuboid is ",formula)
+
+10.#Write a python script to calculate area of a rectangle
+lenght = int(input("enter t lenght here"))
+width = int(input("enter width height here"))
+formula = lenght*width
+print("the area of a rectangle is ",formula)
+
+
+
